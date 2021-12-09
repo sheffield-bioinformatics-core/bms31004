@@ -1,2 +1,2 @@
-# bms31004
-BMS31004 - Bioinformatics for Biomedical Science
+# bms353
+Materials for BMS Level 3 course Bioinformatics for Biomedical Sciences
