@@ -3,8 +3,6 @@ title: "BMS31004 Bioinformatics for Biomedical Science"
 author: "Module Coordinator Mark Dunning"
 output: 
   html_document: 
-    toc: yes
-    toc_float: yes
     css: stylesheets/styles.css
 editor_options: 
   chunk_output_type: inline
@@ -49,7 +47,7 @@ email: [m.j.dunning@sheffield.ac.uk](m.j.dunning@sheffield.ac.uk)
 
 ## Materials
 
-- [Course Overview Slides]()
+- [Course Overview Slides](https://docs.google.com/presentation/d/12VIuZvCNJWTnGPl6teevTzw8B4vF7zIQima4ikjWaNw/edit?usp=sharing)
 - [R Crash Course I](r_intro_1.nb.html)
 - [R Crash Course II](r_intro_2.nb.html)
 - [Exercises](exercises/r_intro.nb.html)
