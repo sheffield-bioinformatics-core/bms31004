@@ -86,8 +86,8 @@ email: [m.j.dunning@sheffield.ac.uk](m.j.dunning@sheffield.ac.uk)
 
 ## Materials
 
-- [Notes for practical session](week3.nb.html)
-- [Exercise](exercises/week3.nb.html)
+- [Notes for practical session]()
+- [Exercise]()
 
 # Week 4 - Differential Expression for RNA-seq
 
@@ -106,8 +106,8 @@ email: [m.j.dunning@sheffield.ac.uk](m.j.dunning@sheffield.ac.uk)
 
 ## Materials
 
-- [Notes for practical session](week4.nb.html)
-- [Exercise](exercises/week4.nb.html)
+- [Notes for practical session]()
+- [Exercise]()
 
 # Week 5 - Visualisation methods for RNA-seq data
 
