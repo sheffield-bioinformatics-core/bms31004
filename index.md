@@ -97,7 +97,7 @@ email: [m.j.dunning@sheffield.ac.uk](m.j.dunning@sheffield.ac.uk)
 - How can we identify outliers, batch effects and sample mix-ups
 - Which statistical tests are appropriate for RNA-seq data
 - Using the DESeq2 package to detect differential expression
-- Using a venn diagram to compare gene lists
+
 
 ## Pre-materials
 
