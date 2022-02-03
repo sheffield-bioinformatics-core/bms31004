@@ -86,8 +86,8 @@ email: [m.j.dunning@sheffield.ac.uk](m.j.dunning@sheffield.ac.uk)
 
 ## Materials
 
-- [Notes for practical session](week3.nb.html)
-- [Exercise](exercises/week3.nb.html)
+- [Notes for practical session]()
+- [Exercise]()
 
 # Week 4 - Differential Expression for RNA-seq
 
@@ -97,7 +97,7 @@ email: [m.j.dunning@sheffield.ac.uk](m.j.dunning@sheffield.ac.uk)
 - How can we identify outliers, batch effects and sample mix-ups
 - Which statistical tests are appropriate for RNA-seq data
 - Using the DESeq2 package to detect differential expression
-- Using a venn diagram to compare gene lists
+
 
 ## Pre-materials
 
@@ -106,8 +106,8 @@ email: [m.j.dunning@sheffield.ac.uk](m.j.dunning@sheffield.ac.uk)
 
 ## Materials
 
-- [Notes for practical session](week4.nb.html)
-- [Exercise](exercises/week4.nb.html)
+- [Notes for practical session]()
+- [Exercise]()
 
 # Week 5 - Visualisation methods for RNA-seq data
 
