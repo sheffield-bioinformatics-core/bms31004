@@ -50,6 +50,7 @@ email: [m.j.dunning@sheffield.ac.uk](m.j.dunning@sheffield.ac.uk)
 - [Course Overview Slides](https://docs.google.com/presentation/d/12VIuZvCNJWTnGPl6teevTzw8B4vF7zIQima4ikjWaNw/edit?usp=sharing)
 - [R Crash Course I](r_intro_1.nb.html)
 - [R Crash Course II](r_intro_2.nb.html)
+- [R Crash Course II - Solutions](https://sbc.shef.ac.uk/r-online/part2-solution.nb.html)
 - [Exercises - Part 1 ONLY](exercises/r_intro.nb.html)
 
 # Week 2 - Introduction to R (continued) and Introduction to RNA-seq
@@ -64,7 +65,7 @@ email: [m.j.dunning@sheffield.ac.uk](m.j.dunning@sheffield.ac.uk)
 ## Setup Instructions
 
 - Please register for a free account at the European Galaxy server:-
-  + [European Galaxy](usegalaxy.eu)
+  + [European Galaxy](https://usegalaxy.eu/)
 - Download some example data from google drive
   + [https://drive.google.com/drive/folders/1RSuvl9shAw12Bj77uYSUdWtkZ5ST5EWi?usp=sharing](https://drive.google.com/drive/folders/1RSuvl9shAw12Bj77uYSUdWtkZ5ST5EWi?usp=sharing)
 - Watch this short video describing a common sequencing technology
