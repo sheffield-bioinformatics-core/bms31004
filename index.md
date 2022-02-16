@@ -74,6 +74,7 @@ email: [m.j.dunning@sheffield.ac.uk](m.j.dunning@sheffield.ac.uk)
 ## Materials
 
 - [R Crash Course III](r_intro_3.nb.html)
+- [R Crash Course III - Solutions](https://sbc.shef.ac.uk/r-online/part3-solution.nb.html)
 - [Introduction to RNA-seq](rnaseq_intro.nb.html)
 - [Exercises - PART 2](exercises/r_intro.nb.html#Part2)
 
