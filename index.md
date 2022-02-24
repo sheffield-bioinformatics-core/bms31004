@@ -92,6 +92,7 @@ email: [m.j.dunning@sheffield.ac.uk](m.j.dunning@sheffield.ac.uk)
 
 - [Notes for practical session](week3.nb.html)
 - [Solution to in-class exercise](solutions/week3_in_class.nb.html)
+- [Week 3 final markdown](week3_final_code.Rmd)
 - [Weekly Exercise](exercises/week3.nb.html)
 
 # Week 4 - Differential Expression for RNA-seq
