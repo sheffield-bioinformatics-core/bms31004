@@ -1,0 +1,42 @@
+---
+title: "Week 3 Final Code"
+---
+
+For completeness, here is the code to read the salmon counts and convert to a DESeq2 dataset.
+
+```{r}
+library(readr)
+library(tximport)
+dirs <- list.files("salmon_quant/")
+quant_files <- list.files("salmon_quant/",pattern="quant.sf.gz",recursive = TRUE,full.names = TRUE)
+names(quant_files) <- dirs
+```
+
+
+```{r}
+tx2gene <- read_csv("tx2gene.csv")
+txi <- tximport(quant_files,
+                type="salmon",
+                tx2gene = tx2gene,
+                ignoreTxVersion = TRUE)
+```
+
+
+```{r}
+sampleinfo <- read_csv("meta_data/sampleInfo.csv")
+library(DESeq2)
+dds <- DESeqDataSetFromTximport(txi, 
+                                colData = sampleinfo,
+                                design = ~Treated)
+```
+
+
+```{r}
+library(dplyr)
+library(ggplot2)
+## if we want the same colour for each bar we can change the fill argument in geom_col
+
+mutate(sampleinfo, LibSize  = colSums(counts(dds)) / 1e6) %>% 
+  ggplot(aes(x = LibSize, y = Run)) + geom_col(fill="steelblue") + geom_vline(xintercept = 20,col="red")
+```
+
