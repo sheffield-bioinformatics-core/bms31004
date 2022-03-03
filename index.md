@@ -110,7 +110,7 @@ email: [m.j.dunning@sheffield.ac.uk](m.j.dunning@sheffield.ac.uk)
 - [Notes for practical session](week4.nb.html)
 - [Solution to in-class exercises]()
 - [Weekly Exercise](exercises/week4.nb.html)
-- [Solution to Weekly Exercise]()
+- [Solution to Weekly Exercise](solutions/week4_in_class.nb.html)
 
 # Week 5 - Visualisation methods for RNA-seq data
 
