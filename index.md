@@ -33,7 +33,7 @@ email: [m.j.dunning@sheffield.ac.uk](m.j.dunning@sheffield.ac.uk)
 # Course Data
 
 - [R crash course data](r_crash_course.zip)
-- [RNA-seq data](BMS31004.zip)
+- [RNA-seq data](bms31004.zip)
 
 # Week 1 - Introduction to R
 
@@ -51,8 +51,7 @@ email: [m.j.dunning@sheffield.ac.uk](m.j.dunning@sheffield.ac.uk)
 - [R Crash Course I](r_intro_1.nb.html)
 - [R Crash Course II](r_intro_2.nb.html)
 - [R Crash Course II - Solutions](https://sbc.shef.ac.uk/r-online/part2-solution.nb.html)
-- [Weekly Exercises - Part 1 ONLY](exercises/r_intro.nb.html)
-- [Solutions to weekly exercise](solutions/r_intro_part1.nb.html)
+- [Exercises - Part 1 ONLY](exercises/r_intro.nb.html)
 
 # Week 2 - Introduction to R (continued) and Introduction to RNA-seq
 
@@ -76,9 +75,8 @@ email: [m.j.dunning@sheffield.ac.uk](m.j.dunning@sheffield.ac.uk)
 
 - [R Crash Course III](r_intro_3.nb.html)
 - [R Crash Course III - Solutions](https://sbc.shef.ac.uk/r-online/part3-solution.nb.html)
-- [Weekly Exercises - PART 2](exercises/r_intro.nb.html#Part2)
-- [Solutions to weekly exercise](solutions/r_intro_part2.nb.html)
 - [Introduction to RNA-seq](rnaseq_intro.nb.html)
+- [Exercises - PART 2](exercises/r_intro.nb.html#Part2)
 
 # Week 3 - Importing RNA-seq counts into R and quality assessment
 
@@ -90,30 +88,29 @@ email: [m.j.dunning@sheffield.ac.uk](m.j.dunning@sheffield.ac.uk)
 
 ## Materials
 
+
 - [Notes for practical session](week3.nb.html)
 - [Solution to in-class exercise](solutions/week3_in_class.nb.html)
-- [Week 3 final markdown](week3_final_code.Rmd)
+- [In-class final markdown](week3_final_code.Rmd)
 - [Weekly Exercise](exercises/week3.nb.html)
+- [Solution to Weekly Exercise](solutions/week3.nb.html)
 
 # Week 4 - Differential Expression for RNA-seq
 
 ## Learning outcomes
 
-- What is PCA, and what can it tell us about the relationships between the samples in our dataset?
-- How can we identify outliers, batch effects and sample mix-ups
-- Which statistical tests are appropriate for RNA-seq data
-- Using the DESeq2 package to detect differential expression
+- How can we visualise sample-to-sample relationships in our dataset?
+- How is the result of a PCA interpreted?
+- How can we look at the distribution of a particular gene?
+- What commands are used in `DESeq2` to generate differential expression results?
 
-
-## Pre-materials
-
-
-- [Differential expression analysis](https://youtu.be/5tGCBW3_0IA) - 26 minutes
 
 ## Materials
 
-- [Notes for practical session]()
-- [Exercise]()
+- [Notes for practical session](week4.nb.html)
+- [Solution to in-class exercises]()
+- [Weekly Exercise](exercises/week4.nb.html)
+- [Solution to Weekly Exercise]()
 
 # Week 5 - Visualisation methods for RNA-seq data
 
@@ -127,16 +124,12 @@ email: [m.j.dunning@sheffield.ac.uk](m.j.dunning@sheffield.ac.uk)
     + heatmaps
 - Customisation of plots
 
-## Pre-materials
-
-
-- [Drawing and Interpreting Heatmaps](https://youtu.be/oMtDyOn2TCc) - 16 minutes
-- [Useful plots and bad plots](https://youtu.be/46-t2jOYsyY) - 17 minutes
-
-
 ## Materials
 
-
+- [Notes for practical session]()
+- [Solution to in-class exercises]()
+- [Weekly Exercise]()
+- [Solution to Weekly Exercise]()
 
 # Week 6 - Pathways and further downstream analysis
 
@@ -146,12 +139,11 @@ email: [m.j.dunning@sheffield.ac.uk](m.j.dunning@sheffield.ac.uk)
 - Using annotation packages to query pathways
 - Methodology behind gene set testing and enrichment analysis
 
-## Pre-Materials
-
-- [Introduction to Functional Gene Analysis](https://youtu.be/clb0bh3zFSM) - 12 minutes
-- [Fisher's Exact test](https://youtu.be/udyAvvaMjfM) - 5 minutes
-- [GSEA theory](https://youtu.be/bT00oJh2x_4) - 9 minutes
 
 ## Materials
 
 
+- [Notes for practical session]()
+- [Solution to in-class exercises]()
+- [Weekly Exercise]()
+- [Solution to Weekly Exercise]()
