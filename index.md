@@ -108,7 +108,7 @@ email: [m.j.dunning@sheffield.ac.uk](m.j.dunning@sheffield.ac.uk)
 ## Materials
 
 - [Notes for practical session](week4.nb.html)
-- [Solution to in-class exercises]()
+- [Solution to in-class exercises](solutions/week4_in_class.nb.html)
 - [Weekly Exercise](exercises/week4.nb.html)
 - [Solution to Weekly Exercise]()
 
