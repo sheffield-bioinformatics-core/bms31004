@@ -128,7 +128,7 @@ email: [m.j.dunning@sheffield.ac.uk](m.j.dunning@sheffield.ac.uk)
 
 - [Notes for practical session](week5.nb.html)
 - [Solution to in-class exercises]()
-- [Weekly Exercise]()
+- [Weekly Exercise](exercises/week5.nb.html)
 - [Solution to Weekly Exercise]()
 
 # Week 6 - Pathways and further downstream analysis
