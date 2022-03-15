@@ -153,5 +153,5 @@ BiocManager::install("clusterProfiler")
 ## Materials
 
 
-- [Notes for practical session]()
+- [Notes for practical session](week6.nb.html)
 - [Solution to in-class exercises]()
