@@ -318,7 +318,7 @@ pre code {
 <li><a href="week5.nb.html">Notes for practical session</a></li>
 <li><a href>Solution to in-class exercises</a></li>
 <li><a href="exercises/week5.nb.html">Weekly Exercise</a></li>
-<li><a href>Solution to Weekly Exercise</a></li>
+<li><a href="solutions/week5_in_class.nb.html">Solution to Weekly Exercise</a></li>
 </ul>
 </div>
 </div>
@@ -327,18 +327,24 @@ pre code {
 <div id="learning-outcomes-5" class="section level2">
 <h2>Learning outcomes</h2>
 <ul>
-<li>Introduction to assessment</li>
-<li>Using annotation packages to query pathways</li>
-<li>Methodology behind gene set testing and enrichment analysis</li>
+<li>How can we use a “heatmap” to visualise our differential expression results</li>
+<li>How to explore the differential expression results for a given pathway</li>
+<li>Identify over-represented pathways - given a set of differentially-expressed genes</li>
+<li>Identify pathways with a tendancy to be over- or under-expressed; without having to use an p-value cut-offs</li>
 </ul>
+</div>
+<div id="setup" class="section level2">
+<h2>Setup</h2>
+<p>Please run this code before the workshop to install a required package</p>
+<pre><code>packageurl &lt;- &quot;https://cran.r-project.org/src/contrib/Archive/rvcheck/rvcheck_0.1.8.tar.gz&quot;
+install.packages(packageurl, repos=NULL, type=&quot;source&quot;)
+BiocManager::install(&quot;clusterProfiler&quot;)</code></pre>
 </div>
 <div id="materials-5" class="section level2">
 <h2>Materials</h2>
 <ul>
 <li><a href>Notes for practical session</a></li>
 <li><a href>Solution to in-class exercises</a></li>
-<li><a href>Weekly Exercise</a></li>
-<li><a href>Solution to Weekly Exercise</a></li>
 </ul>
 </div>
 </div>

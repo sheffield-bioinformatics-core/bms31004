@@ -129,21 +129,29 @@ email: [m.j.dunning@sheffield.ac.uk](m.j.dunning@sheffield.ac.uk)
 - [Notes for practical session](week5.nb.html)
 - [Solution to in-class exercises]()
 - [Weekly Exercise](exercises/week5.nb.html)
-- [Solution to Weekly Exercise]()
+- [Solution to Weekly Exercise](solutions/week5_in_class.nb.html)
 
 # Week 6 - Pathways and further downstream analysis
 
 ## Learning outcomes
 
-- Introduction to assessment
-- Using annotation packages to query pathways
-- Methodology behind gene set testing and enrichment analysis
+- How can we use a "heatmap" to visualise our differential expression results
+- How to explore the differential expression results for a given pathway
+- Identify over-represented pathways - given a set of differentially-expressed genes
+- Identify pathways with a tendancy to be over- or under-expressed; without having to use an p-value cut-offs 
 
+## Setup
+
+Please run this code before the workshop to install a required package
+
+```
+packageurl <- "https://cran.r-project.org/src/contrib/Archive/rvcheck/rvcheck_0.1.8.tar.gz"
+install.packages(packageurl, repos=NULL, type="source")
+BiocManager::install("clusterProfiler")
+```
 
 ## Materials
 
 
 - [Notes for practical session]()
 - [Solution to in-class exercises]()
-- [Weekly Exercise]()
-- [Solution to Weekly Exercise]()
