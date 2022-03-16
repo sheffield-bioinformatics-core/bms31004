@@ -155,3 +155,4 @@ BiocManager::install("clusterProfiler")
 
 - [Notes for practical session](week6.nb.html)
 - [Solution to in-class exercises](solutions/week6_in_class.nb.html)
+- [Minimal Analysis Workflow](minimal_workflow.Rmd)

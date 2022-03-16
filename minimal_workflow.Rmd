@@ -1,0 +1,107 @@
+---
+title: "Minimal Workflow"
+author: "Mark"
+date: "15/03/2022"
+output:
+  word_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Introduction
+
+Introduce the biological conditions being investigated...
+
+## Data Import
+
+Describe how the data are imported. Adjust any file paths etc as required...
+
+```{r}
+library(readr)
+library(tximport)
+library(DESeq2)
+library(dplyr)
+
+dirs <- list.files("salmon_quant/")
+
+quant_files <- list.files("salmon_quant/",pattern="quant.sf.gz",recursive = TRUE,full.names = TRUE)
+names(quant_files) <- dirs
+
+tx2gene <- read_csv("tx2gene.csv",col_names = FALSE)
+
+txi <- tximport(quant_files,
+                type="salmon",
+                tx2gene = tx2gene,
+                ignoreTxVersion = TRUE)
+
+sampleInfo <- read_tsv("meta_data/sampleInfo_corrected.txt")
+
+dds <- DESeqDataSetFromTximport(txi,
+                                colData = sampleInfo,
+                                design = ~Treated)
+```
+
+## Quality Assessment
+
+Check the number of reads...
+
+```{r}
+
+```
+
+
+
+Verify Sample Relationships
+
+```{r}
+vsd <- vst(dds)
+plotPCA(vsd, intgroup = "Treated")
+```
+
+Describe and interpret the plot
+
+## Differential Expression
+
+This will do the differential expression for the design chosen when you created the dds object. The results function may need to change to perform different comparisons.
+
+```{r}
+de <- DESeq(dds)
+results <- results(de, tidy=TRUE)
+
+```
+## Annotation
+
+Use the `org.Hs.eg.db` package to add extra columns to the results. If your dataset is not human, you will need to change the name of this package
+
+```{r}
+library(org.Hs.eg.db)
+anno <- AnnotationDbi::select(org.Hs.eg.db, keys = rownames(dds),
+                              keytype = "ENSEMBL",
+                              columns = c("SYMBOL","GENENAME","ENTREZID"))
+```
+
+## Pathways analysis
+
+Use the clusterProfiler package to identify biologically-relevant pathways
+
+
+```{r}
+library(clusterProfiler)
+universe <- results %>% pull(row)
+sigGenes <- results %>% 
+  filter(padj < 0.05, !is.na(row)) %>% pull(row)
+
+enrich_go <- enrichGO(
+  gene= sigGenes,
+  OrgDb = org.Hs.eg.db,
+  keyType = "ENSEMBL",
+  ont = "BP",
+  universe = universe,
+  qvalueCutoff = 0.05,
+  readable=TRUE
+)
+```
+
