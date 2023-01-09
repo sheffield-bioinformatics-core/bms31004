@@ -50,7 +50,7 @@ email: [m.j.dunning@sheffield.ac.uk](m.j.dunning@sheffield.ac.uk)
 - [Course Overview Slides](https://docs.google.com/presentation/d/12VIuZvCNJWTnGPl6teevTzw8B4vF7zIQima4ikjWaNw/edit?usp=sharing)
 - [R Crash Course I](r_intro_1.nb.html)
 - [R Crash Course II](r_intro_2.nb.html)
-- [R Crash Course II - Solutions](https://sbc.shef.ac.uk/r-online/part2-solution.nb.html)
+- R Crash Course II - Solutions
 - [Exercises - Part 1 ONLY](exercises/r_intro.nb.html)
 
 # Week 2 - Introduction to R (continued) and Introduction to RNA-seq
@@ -74,7 +74,7 @@ email: [m.j.dunning@sheffield.ac.uk](m.j.dunning@sheffield.ac.uk)
 ## Materials
 
 - [R Crash Course III](r_intro_3.nb.html)
-- [R Crash Course III - Solutions](https://sbc.shef.ac.uk/r-online/part3-solution.nb.html)
+- R Crash Course III - Solutions
 - [Introduction to RNA-seq](rnaseq_intro.nb.html)
 - [Exercises - PART 2](exercises/r_intro.nb.html#Part2)
 
@@ -90,10 +90,10 @@ email: [m.j.dunning@sheffield.ac.uk](m.j.dunning@sheffield.ac.uk)
 
 
 - [Notes for practical session](week3.nb.html)
-- [Solution to in-class exercise](solutions/week3_in_class.nb.html)
+- Solution to in-class exercise
 - [In-class final markdown](week3_final_code.Rmd)
 - [Weekly Exercise](exercises/week3.nb.html)
-- [Solution to Weekly Exercise](solutions/week3.nb.html)
+- Solution to Weekly Exercise
 
 # Week 4 - Differential Expression for RNA-seq
 
@@ -108,9 +108,9 @@ email: [m.j.dunning@sheffield.ac.uk](m.j.dunning@sheffield.ac.uk)
 ## Materials
 
 - [Notes for practical session](week4.nb.html)
-- [Solution to in-class exercises](solutions/week4_in_class.nb.html)
+- Solution to in-class exercises
 - [Weekly Exercise](exercises/week4.nb.html)
-- [Solution to Weekly Exercise](solutions/week4.nb.html)
+- Solution to Weekly Exercise
 
 # Week 5 - Visualisation methods for RNA-seq data
 
@@ -127,9 +127,9 @@ email: [m.j.dunning@sheffield.ac.uk](m.j.dunning@sheffield.ac.uk)
 ## Materials
 
 - [Notes for practical session](week5.nb.html)
-- [Solution to in-class exercises](solutions/week5.nb.html)
+- Solution to in-class exercises
 - [Weekly Exercise](exercises/week5.nb.html)
-- [Solution to Weekly Exercise](solutions/week5_in_class.nb.html)
+- Solution to Weekly Exercise
 
 # Week 6 - Pathways and further downstream analysis
 
@@ -154,5 +154,5 @@ BiocManager::install("clusterProfiler")
 
 
 - [Notes for practical session](week6.nb.html)
-- [Solution to in-class exercises](solutions/week6_in_class.nb.html)
+- Solution to in-class exercises
 - [Minimal Analysis Workflow](minimal_workflow.Rmd)
